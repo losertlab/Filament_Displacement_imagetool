@@ -13,7 +13,7 @@ function regions = createManyBulkMasks(bulkMask,originalBoundary,numBulkMasks)
 
 % OUTPUT:
 % regions: struct which contains all of the masks of interest
-randomSEval=20;
+randomSEval=25;
 regions(1).bulkMask = originalBoundary;
 for i=1:numBulkMasks-1
     if i==1
